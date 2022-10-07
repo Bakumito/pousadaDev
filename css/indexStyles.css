@@ -1,4 +1,64 @@
+* {
+  margin: 0;
+}
+
 html {
+  display: flex;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 62.5%;
 }
+
+header {  
+  display: flex;  
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+  position: fixed;
+  height: 6.4rem;
+  background-color: aliceblue;
+  width: 100%;
+  z-index: 99;
+}
+
+header a {
+  text-decoration: none;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+header div {
+  margin: 20rem;
+}
+
+.logo {
+  color: aqua;
+}
+
+.inicio {
+  margin-top: 6.4rem;
+  background-image: url('../img/photos/img-fundo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inicio div {
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+  justify-content: center;
+  background-color: aquamarine;
+  padding: 2rem 5rem;
+  font-size: 1.6rem;
+  opacity: 75%;
+  line-height: 6.4rem;
+  border: 0.1rem solid white;
+  border-radius: 1.6%;
+  color: black;
+}
+
+
