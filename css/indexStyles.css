@@ -86,7 +86,7 @@ section {
 
 #quartos .figures {
   display: flex;
-  justify-content: space-evenly;  
+  justify-content: space-around;  
 }
 
 img {
@@ -94,20 +94,42 @@ img {
   height: 100%;
 }
 
-figure {
+.figures figure {
   border-bottom: 0.2rem solid #00836a;
 }
 
-figure a {
+.figures figure a {
   text-decoration: none;
   color: #3d3d3d;
 }
 
-figure a:hover {
+.figures figure a:hover {
   color: #22b2bf;
 }
 
-iframe {
-  width: 25%;
+#rota {
+  width: 100%;
 }
 
+iframe{
+  width: 100%;
+  height: 35vh;
+}
+
+#sobre .descricoes{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.descricao {
+  width: 35vw;
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+}
+
+#sobre figure img {
+  width: 10rem;
+  height: 11.3rem;
+}
