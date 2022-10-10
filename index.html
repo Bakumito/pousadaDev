@@ -12,92 +12,118 @@
   <body>
     <header>
       <div>
-        <a href="#">Pousada <span class="logo">Secreta</span></a>
+        <a id="logo" href="#inicio"
+          >Pousada <span class="logo">Secreta</span>
+        </a>
       </div>
       <div>
-        <a href="#">Sobre</a>
-        <a href="#">Rota</a>
-        <a href="#">Quartos</a>
-      </div>
+        <nav>
+          <a href="#sobre">Sobre</a>
+          <a href="#rota">Rota</a>
+          <a href="#quartos">Quartos</a>
+        </nav>
       </div>
     </header>
-    <section class="inicio">
+    <main>
+      <section id="inicio">
         <div>
           <h1>Pousada Secreta</h1>
           <p>A pousada reservada em Angra dos Reis</p>
-      </div>
-    </section>
-    <section>
-      <div>
-        <h2>SEJA BEM VINDO(A)!</h2>
-        <p>Relaxe em nossas acomodações e curta o melhor de Angra dos Reis</p>
-        <p>Temos quartos para solteiro, casal ou família.</p>
-      </div>
-      <div>
-        <div>
-          <img src="img/photos/quarto-solteiro1.jpg" alt="QUARTO DE SOLTEIRO" />
-          <p>QUARTO DE SOLTEIRO</p>
         </div>
+      </section>
+      <section id="sobre">
         <div>
-          <img src="img/photos/quarto-casal1.jpg" alt="QUARTO DE CASAL" />
-          <p>QUARTO DE CASAL</p>
+          <h2>SEJA BEM VINDO(A)!</h2>
+          <p>Relaxe em nossas acomodações e curta o melhor de Angra dos Reis</p>
+          <p>Temos quartos para solteiro, casal ou família.</p>
         </div>
+        <div class="figures">
+          <div>
+            <figure>
+              <img
+                src="img/photos/quarto-solteiro1.jpg"
+                alt="QUARTO DE SOLTEIRO"
+              />
+              <figcaption>
+                <a href="quartos.html#solteiro">
+                  <p>QUARTO DE SOLTEIRO</p>
+                </a>
+              </figcaption>
+            </figure>
+          </div>
+          <div>
+            <figure>
+              <img src="img/photos/quarto-casal1.jpg" alt="QUARTO DE CASAL" />
+              <figcaption>
+                <a href="quartos.html#casal">
+                  <p>QUARTO DE CASAL</p>
+                </a>
+              </figcaption>
+            </figure>
+          </div>
+          <div>
+            <figure>
+              <img src="img/photos/quarto-familia1.jpg" alt="QUARTO FAMILIA" />
+              <figcaption>
+                <a href="quartos.html#familia">
+                  <p>QUARTO FAMILIA</p>
+                </a>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <section id="rota">
+        <h2>ROTA</h2>
+        <p>Veja como chegar até a pousada</p>
         <div>
-          <img src="img/photos/quarto-familia1.jpg" alt="QUARTO FAMILIA" />
-          <p>QUARTO FAMILIA</p>
+          <iframe
+            src="https://maps.google.com/maps?q=tambaba&t=k&z=19&ie=UTF8&iwloc=&output=embed"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+            >mapa</iframe
+          >
         </div>
-      </div>
-    </section>
-    <section>
-      <h2>ROTA</h2>
-      <p>Veja como chegar até a pousada</p>
-      <div>
-        <iframe
-          src="https://maps.google.com/maps?q=tambaba&t=k&z=19&ie=UTF8&iwloc=&output=embed"
-          frameborder="0"
-          scrolling="no"
-          marginheight="0"
-          marginwidth="0"
-          >mapa</iframe
-        >
-      </div>
-    </section>
-    <section>
-      <div>
-        <h2>SOBRE A POUSADA!</h2>
-        <p>Conheça um pouco sobre nossa pousada.</p>
+      </section>
+      <section id="quartos">
         <div>
-          <h3>A Pousada</h3>
-          <p>
-            A Pousada Dev dispõe de estacionamento privativo gratuito, piscina
-            ao ar livre e bar.
-          </p>
-          <img src="img/photos/img1.jpg" alt="pousada" />
+          <h2>SOBRE A POUSADA!</h2>
+          <p>Conheça um pouco sobre nossa pousada.</p>
+          <div>
+            <h3>A Pousada</h3>
+            <p>
+              A Pousada Dev dispõe de estacionamento privativo gratuito, piscina
+              ao ar livre e bar.
+            </p>
+            <img src="img/photos/img1.jpg" alt="pousada" />
+          </div>
+          <div>
+            <h3>Nossos Quartos</h3>
+            <p>
+              Os quartos possuem TV de tela plana a cabo, cozinha compacta e
+              área para refeições. Além disso, as unidades da Pousada Dev contam
+              com ar-condicionado e guarda-roupa.
+            </p>
+            <img src="img/photos/img2.jpg" alt="quartos" />
+          </div>
+          <div>
+            <h3>Alimentação</h3>
+            <p>
+              A Pousada serve café da manhã em estilo continental ou buffet.
+              Nossos restaurantes funcionam 24hrs.
+            </p>
+            <img src="img/photos/img3.jpg" alt="Alimentação" />
+          </div>
+          <div>
+            <h3>Recepção</h3>
+            <p>Nossa recepção fica aberta 24hrs.</p>
+            <img src="img/photos/img5.jpg" alt="Recepção" />
+          </div>
         </div>
-        <div>
-          <h3>Nossos Quartos</h3>
-          <p>
-            Os quartos possuem TV de tela plana a cabo, cozinha compacta e área
-            para refeições. Além disso, as unidades da Pousada Dev contam com
-            ar-condicionado e guarda-roupa.
-          </p>
-          <img src="img/photos/img2.jpg" alt="quartos" />
-        </div>
-        <div>
-          <h3>Alimentação</h3>
-          <p>
-            A Pousada serve café da manhã em estilo continental ou buffet.
-            Nossos restaurantes funcionam 24hrs.
-          </p>
-          <img src="img/photos/img3.jpg" alt="Alimentação" />
-        </div>
-        <div>
-          <h3>Recepção</h3>
-          <p>Nossa recepção fica aberta 24hrs.</p>
-          <img src="img/photos/img5.jpg" alt="Recepção" />
-        </div>
-      </div>
-    </section>
+      </section>
+    </main>
     <footer>
       <div>
         <p>Entre em contato conosco:</p>
